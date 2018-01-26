@@ -1,54 +1,54 @@
 a="omer"
-print(a.upper())#Büyük harflere çevirir.
-#çıktısı:OMER
+print(a.upper())#BÃ¼yÃ¼k harflere Ã§evirir.
+#Ã§Ä±ktÄ±sÄ±:OMER
 #--------------------------------------------------------------
 b="AHMET"
-print(b.lower()) #küçük harflere çevirir.
-#çıktısı:ahmet
+print(b.lower()) #kÃ¼Ã§Ã¼k harflere Ã§evirir.
+#Ã§Ä±ktÄ±sÄ±:ahmet
 #--------------------------------------------------------------
 c="bababa"
-print(c.replace("a","e"))    #a harflerini e ile değiştirdik.
-#çıktısı:bebebe
+print(c.replace("a","e"))    #a harflerini e ile deÄŸiÅŸtirdik.
+#Ã§Ä±ktÄ±sÄ±:bebebe
 
 #--------------------------------------------------------------
 d="Python"
-print(d.startswith("P")) #d değişkeni P ile mi başlıyor?
-#Çıktı:True
+print(d.startswith("P")) #d deÄŸiÅŸkeni P ile mi baÅŸlÄ±yor?
+#Ã‡Ä±ktÄ±:True
 
 d="Python"
-print(d.startswith("Y")) #d değişkeni Y ile mi başlıyor?
-#Çıktı:False
+print(d.startswith("Y")) #d deÄŸiÅŸkeni Y ile mi baÅŸlÄ±yor?
+#Ã‡Ä±ktÄ±:False
 
 d="Python"
-print(d.endswith("on")) #d değişkeni "on" ile mi bitiyor?
-#Çıktı:True
+print(d.endswith("on")) #d deÄŸiÅŸkeni "on" ile mi bitiyor?
+#Ã‡Ä±ktÄ±:True
 
 d="Python"
-print(d.endswith("Y")) #d değişkeni "kon" ile mi bitiyor?
-#Çıktı:False
+print(d.endswith("Y")) #d deÄŸiÅŸkeni "kon" ile mi bitiyor?
+#Ã‡Ä±ktÄ±:False
 #--------------------------------------------------------------
-dizi=("ahmet-mehmet-ayşe-rabia")
-print(dizi.split("-"))
-#çıktısı:['ahmet', 'mehmet', 'ayşe', 'rabia']
+dizi=("ahmet-mehmet-ayÅŸe-rabia")
+print(dizi.split("-")) #tire ye gÃ¶re bÃ¶lÃ¼p diziye atar.
+#Ã§Ä±ktÄ±sÄ±:['ahmet', 'mehmet', 'ayÅŸe', 'rabia']
 #--------------------------------------------------------------
 liste=("T","B","M","B")
-print(".".join(liste))#birleştirmeye yarar.
-#çıktısı: T.B.M.B
+print(".".join(liste))#birleÅŸtirmeye yarar.
+#Ã§Ä±ktÄ±sÄ±: T.B.M.B
 #--------------------------------------------------------------
-yazi="ahmet eve geç geldi"
-print(yazi.count("e"))#yazi içinde kaçtane e harfi var?
-#çıktısı : 5
+yazi="ahmet eve geÃ§ geldi"
+print(yazi.count("e"))#yazi iÃ§inde kaÃ§tane e harfi var?
+#Ã§Ä±ktÄ±sÄ± : 5
 
-yazi="ahmet eve geç geldi"
-print(yazi.count("e",5))#5.indisten sonra saymaya başlasın
-#çıktısı : 4
+yazi="ahmet eve geÃ§ geldi"
+print(yazi.count("e",5))#5.indisten sonra saymaya baÅŸlasÄ±n
+#Ã§Ä±ktÄ±sÄ± : 4
 #--------------------------------------------------------------
-yazi="ahmet eve geç geldi"
-print(yazi.find("a")) #yazi içinde a harfini gördüğü ilk indis?
-#çıktısı:0
+yazi="ahmet eve geÃ§ geldi"
+print(yazi.find("a")) #yazi iÃ§inde a harfini gÃ¶rdÃ¼ÄŸÃ¼ ilk indis?
+#Ã§Ä±ktÄ±sÄ±:0
 #--------------------------------------------------------------
-yazi="ahmet eve geç geldi"
-print(yazi.rfind("e")) #yazi içinde e harfini tersten bakarak gördüğü indis?
-#çıktısı:15
+yazi="ahmet eve geÃ§ geldi"
+print(yazi.rfind("e")) #yazi iÃ§inde e harfini tersten bakarak gÃ¶rdÃ¼ÄŸÃ¼ indis?
+#Ã§Ä±ktÄ±sÄ±:15
 #--------------------------------------------------------------
 
